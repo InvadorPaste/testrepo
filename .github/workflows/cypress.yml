@@ -37,7 +37,7 @@ jobs:
           ref: ${{ inputs.commit_sha }}
 
       - name: Setup the Node environment
-        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3.8.1
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '18.13'
 
